@@ -14,6 +14,10 @@ Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'sjl/badwolf'
 Plugin 'itchyny/lightline.vim'
 Plugin 'tomtom/tcomment_vim'
+Plugin 'airblade/vim-gitgutter'
+Plugin 'nathanaelkane/vim-indent-guides'
+Plugin 'dhruvasagar/vim-table-mode'
+Plugin 'tpope/vim-fireplace'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -39,7 +43,8 @@ set shiftwidth=4
 " On pressing tab, insert 4 spaces
 set expandtab
 
-
+"
+" The Ultimate vimrc
 " https://github.com/amix/vimrc/blob/master/vimrcs/basic.vim
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Files, backups and undo
@@ -48,3 +53,7 @@ set expandtab
 set nobackup
 set nowb
 set noswapfile
+" With a map leader it's possible to do extra key combinations
+" like <leader>w saves the current file
+let mapleader = ","
+
