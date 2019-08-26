@@ -18,6 +18,12 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'dhruvasagar/vim-table-mode'
 Plugin 'tpope/vim-fireplace'
+Plugin 'paredit.vim'
+Plugin 'godlygeek/tabular'
+Plugin 'plasticboy/vim-markdown'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'tpope/vim-obsession'
+""Plugin 'JamshedVesuna/vim-markdown-preview'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -57,3 +63,5 @@ set noswapfile
 " like <leader>w saves the current file
 let mapleader = ","
 
+
+set laststatus=2
