@@ -22,6 +22,7 @@ Plugin 'paredit.vim'
 Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
 Plugin 'scrooloose/nerdcommenter'
+Plugin 'scrooloose/nerdtree'
 Plugin 'tpope/vim-obsession'
 ""Plugin 'JamshedVesuna/vim-markdown-preview'
 
